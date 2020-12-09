@@ -1,0 +1,13 @@
+C:\VisualStudio\Test.NetCore\Test.NetCore\bin\Debug\netcoreapp3.1\Test.NetCore.exe
+C:\VisualStudio\Test.NetCore\Test.NetCore\bin\Debug\netcoreapp3.1\Test.NetCore.deps.json
+C:\VisualStudio\Test.NetCore\Test.NetCore\bin\Debug\netcoreapp3.1\Test.NetCore.runtimeconfig.json
+C:\VisualStudio\Test.NetCore\Test.NetCore\bin\Debug\netcoreapp3.1\Test.NetCore.runtimeconfig.dev.json
+C:\VisualStudio\Test.NetCore\Test.NetCore\bin\Debug\netcoreapp3.1\Test.NetCore.dll
+C:\VisualStudio\Test.NetCore\Test.NetCore\bin\Debug\netcoreapp3.1\Test.NetCore.pdb
+C:\VisualStudio\Test.NetCore\Test.NetCore\obj\Debug\netcoreapp3.1\Test.NetCore.csprojAssemblyReference.cache
+C:\VisualStudio\Test.NetCore\Test.NetCore\obj\Debug\netcoreapp3.1\Test.NetCore.csproj.CoreCompileInputs.cache
+C:\VisualStudio\Test.NetCore\Test.NetCore\obj\Debug\netcoreapp3.1\Test.NetCore.AssemblyInfoInputs.cache
+C:\VisualStudio\Test.NetCore\Test.NetCore\obj\Debug\netcoreapp3.1\Test.NetCore.AssemblyInfo.cs
+C:\VisualStudio\Test.NetCore\Test.NetCore\obj\Debug\netcoreapp3.1\Test.NetCore.dll
+C:\VisualStudio\Test.NetCore\Test.NetCore\obj\Debug\netcoreapp3.1\Test.NetCore.pdb
+C:\VisualStudio\Test.NetCore\Test.NetCore\obj\Debug\netcoreapp3.1\Test.NetCore.genruntimeconfig.cache

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="adopcionesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="adopcion">
+    <Key>
+      <PropertyRef Name="nroAdopcion" />
+    </Key>
+    <Property Name="nroAdopcion" Type="int" Nullable="false" />
+    <Property Name="fechaAdopcion" Type="date" Nullable="false" />
+    <Property Name="idAdoptante" Type="int" Nullable="false" />
+    <Property Name="idMascota" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="adoptante">
+    <Key>
+      <PropertyRef Name="idAdoptante" />
+    </Key>
+    <Property Name="idAdoptante" Type="int" Nullable="false" />
+    <Property Name="nombreAdoptante" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="direccionAdoptante" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="telefono1Adoptante" Type="int" Nullable="false" />
+    <Property Name="telefono2Adoptante" Type="int" Nullable="false" />
+    <Property Name="emailAdoptante" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="mascota">
+    <Key>
+      <PropertyRef Name="idMascota" />
+    </Key>
+    <Property Name="idMascota" Type="int" Nullable="false" />
+    <Property Name="nombreMascota" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="edadMascota" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="colorMascota" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="generoMascota" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <Association Name="fk_adopcion_adoptante">
+    <End Role="adoptante" Type="Self.adoptante" Multiplicity="1" />
+    <End Role="adopcion" Type="Self.adopcion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="adoptante">
+        <PropertyRef Name="idAdoptante" />
+      </Principal>
+      <Dependent Role="adopcion">
+        <PropertyRef Name="idAdoptante" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_adopcion_mascota">
+    <End Role="mascota" Type="Self.mascota" Multiplicity="1" />
+    <End Role="adopcion" Type="Self.adopcion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mascota">
+        <PropertyRef Name="idMascota" />
+      </Principal>
+      <Dependent Role="adopcion">
+        <PropertyRef Name="idMascota" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="adopcionesModelStoreContainer">
+    <EntitySet Name="adopcion" EntityType="Self.adopcion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="adoptante" EntityType="Self.adoptante" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="mascota" EntityType="Self.mascota" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="fk_adopcion_adoptante" Association="Self.fk_adopcion_adoptante">
+      <End Role="adoptante" EntitySet="adoptante" />
+      <End Role="adopcion" EntitySet="adopcion" />
+    </AssociationSet>
+    <AssociationSet Name="fk_adopcion_mascota" Association="Self.fk_adopcion_mascota">
+      <End Role="mascota" EntitySet="mascota" />
+      <End Role="adopcion" EntitySet="adopcion" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

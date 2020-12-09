@@ -1,0 +1,12 @@
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\ThirdProj\bin\Debug\netcoreapp3.1\ThirdProj.exe
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\ThirdProj\bin\Debug\netcoreapp3.1\ThirdProj.deps.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\ThirdProj\bin\Debug\netcoreapp3.1\ThirdProj.runtimeconfig.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\ThirdProj\bin\Debug\netcoreapp3.1\ThirdProj.runtimeconfig.dev.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\ThirdProj\bin\Debug\netcoreapp3.1\ThirdProj.dll
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\ThirdProj\bin\Debug\netcoreapp3.1\ThirdProj.pdb
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\ThirdProj\obj\Debug\netcoreapp3.1\ThirdProj.AssemblyInfoInputs.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\ThirdProj\obj\Debug\netcoreapp3.1\ThirdProj.AssemblyInfo.cs
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\ThirdProj\obj\Debug\netcoreapp3.1\ThirdProj.csproj.CoreCompileInputs.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\ThirdProj\obj\Debug\netcoreapp3.1\ThirdProj.dll
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\ThirdProj\obj\Debug\netcoreapp3.1\ThirdProj.pdb
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\ThirdProj\obj\Debug\netcoreapp3.1\ThirdProj.genruntimeconfig.cache

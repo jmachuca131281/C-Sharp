@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Dinamic Polimorphism Adstract/1.0.0": {
+        "runtime": {
+          "Dinamic Polimorphism Adstract.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dinamic Polimorphism Adstract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Dinamic Polimorphism Adstract\bin\Debug\netcoreapp3.1\Dinamic Polimorphism Adstract.exe
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Dinamic Polimorphism Adstract\bin\Debug\netcoreapp3.1\Dinamic Polimorphism Adstract.deps.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Dinamic Polimorphism Adstract\bin\Debug\netcoreapp3.1\Dinamic Polimorphism Adstract.runtimeconfig.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Dinamic Polimorphism Adstract\bin\Debug\netcoreapp3.1\Dinamic Polimorphism Adstract.runtimeconfig.dev.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Dinamic Polimorphism Adstract\bin\Debug\netcoreapp3.1\Dinamic Polimorphism Adstract.dll
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Dinamic Polimorphism Adstract\bin\Debug\netcoreapp3.1\Dinamic Polimorphism Adstract.pdb
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Dinamic Polimorphism Adstract\obj\Debug\netcoreapp3.1\Dinamic Polimorphism Adstract.csprojAssemblyReference.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Dinamic Polimorphism Adstract\obj\Debug\netcoreapp3.1\Dinamic Polimorphism Adstract.AssemblyInfoInputs.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Dinamic Polimorphism Adstract\obj\Debug\netcoreapp3.1\Dinamic Polimorphism Adstract.AssemblyInfo.cs
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Dinamic Polimorphism Adstract\obj\Debug\netcoreapp3.1\Dinamic Polimorphism Adstract.csproj.CoreCompileInputs.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Dinamic Polimorphism Adstract\obj\Debug\netcoreapp3.1\Dinamic Polimorphism Adstract.dll
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Dinamic Polimorphism Adstract\obj\Debug\netcoreapp3.1\Dinamic Polimorphism Adstract.pdb
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Dinamic Polimorphism Adstract\obj\Debug\netcoreapp3.1\Dinamic Polimorphism Adstract.genruntimeconfig.cache

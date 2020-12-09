@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="App_Start\" />
+    <Folder Include="AspNetForms\" />
+    <Folder Include="Content\" />
+    <Folder Include="images\" />
+    <Folder Include="includes\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Scripts\" />
+    <Folder Include="Reports\" />
+    <Folder Include="Views\Consultas\" />
+    <Folder Include="Views\FromMVC\" />
+    <Folder Include="Views\MantProd\" />
+    <Folder Include="Views\UsingWebForm\" />
+    <Folder Include="Views\Productos\" />
+    <Folder Include="Views\Pago\" />
+    <Folder Include="Views\Plantillas\" />
+  </ItemGroup>
+
+</Project>

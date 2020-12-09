@@ -1,0 +1,12 @@
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Inheritence\bin\Debug\netcoreapp3.1\Inheritence.exe
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Inheritence\bin\Debug\netcoreapp3.1\Inheritence.deps.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Inheritence\bin\Debug\netcoreapp3.1\Inheritence.runtimeconfig.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Inheritence\bin\Debug\netcoreapp3.1\Inheritence.runtimeconfig.dev.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Inheritence\bin\Debug\netcoreapp3.1\Inheritence.dll
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Inheritence\bin\Debug\netcoreapp3.1\Inheritence.pdb
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Inheritence\obj\Debug\netcoreapp3.1\Inheritence.AssemblyInfoInputs.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Inheritence\obj\Debug\netcoreapp3.1\Inheritence.AssemblyInfo.cs
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Inheritence\obj\Debug\netcoreapp3.1\Inheritence.csproj.CoreCompileInputs.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Inheritence\obj\Debug\netcoreapp3.1\Inheritence.dll
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Inheritence\obj\Debug\netcoreapp3.1\Inheritence.pdb
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Inheritence\obj\Debug\netcoreapp3.1\Inheritence.genruntimeconfig.cache

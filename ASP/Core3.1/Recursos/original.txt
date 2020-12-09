@@ -1,0 +1,2 @@
+artiVM.ListaCategorias = _contenedorTrabajo.Categoria.GetListaCategorias();
+return View(artiVM);

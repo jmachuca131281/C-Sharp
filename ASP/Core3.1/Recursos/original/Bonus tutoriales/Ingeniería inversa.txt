@@ -1,0 +1,5 @@
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+
+Scaffold-DbContext 'Server=RENDER2WEB\SQLEXPRESS;Database=BasePruebaReverse;User ID=render2web;Password=123456' Microsoft.EntityFrameworkCore.SqlServer

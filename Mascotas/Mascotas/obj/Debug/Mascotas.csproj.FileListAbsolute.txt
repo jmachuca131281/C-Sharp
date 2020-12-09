@@ -1,0 +1,16 @@
+C:\VisualStudio\Mascotas\Mascotas\bin\Debug\Mascotas.exe.config
+C:\VisualStudio\Mascotas\Mascotas\bin\Debug\Mascotas.exe
+C:\VisualStudio\Mascotas\Mascotas\bin\Debug\Mascotas.pdb
+C:\VisualStudio\Mascotas\Mascotas\bin\Debug\EntityFramework.dll
+C:\VisualStudio\Mascotas\Mascotas\bin\Debug\EntityFramework.SqlServer.dll
+C:\VisualStudio\Mascotas\Mascotas\bin\Debug\EntityFramework.xml
+C:\VisualStudio\Mascotas\Mascotas\bin\Debug\EntityFramework.SqlServer.xml
+C:\VisualStudio\Mascotas\Mascotas\obj\Debug\Mascotas.csprojAssemblyReference.cache
+C:\VisualStudio\Mascotas\Mascotas\obj\Debug\Mascotas.Properties.Resources.resources
+C:\VisualStudio\Mascotas\Mascotas\obj\Debug\Mascotas.View.FrmMascotas.resources
+C:\VisualStudio\Mascotas\Mascotas\obj\Debug\Mascotas.csproj.GenerateResource.cache
+C:\VisualStudio\Mascotas\Mascotas\obj\Debug\Mascotas.csproj.CoreCompileInputs.cache
+C:\VisualStudio\Mascotas\Mascotas\obj\Debug\Mascotas.csproj.CopyComplete
+C:\VisualStudio\Mascotas\Mascotas\obj\Debug\Mascotas.exe
+C:\VisualStudio\Mascotas\Mascotas\obj\Debug\Mascotas.pdb
+C:\VisualStudio\Mascotas\Mascotas\obj\Debug\Mascotas.View.FrmGestionMascotas.resources

@@ -1,0 +1,13 @@
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\5thProj\bin\Debug\netcoreapp3.1\5thProj.exe
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\5thProj\bin\Debug\netcoreapp3.1\5thProj.deps.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\5thProj\bin\Debug\netcoreapp3.1\5thProj.runtimeconfig.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\5thProj\bin\Debug\netcoreapp3.1\5thProj.runtimeconfig.dev.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\5thProj\bin\Debug\netcoreapp3.1\5thProj.dll
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\5thProj\bin\Debug\netcoreapp3.1\5thProj.pdb
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\5thProj\obj\Debug\netcoreapp3.1\5thProj.AssemblyInfoInputs.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\5thProj\obj\Debug\netcoreapp3.1\5thProj.AssemblyInfo.cs
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\5thProj\obj\Debug\netcoreapp3.1\5thProj.csproj.CoreCompileInputs.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\5thProj\obj\Debug\netcoreapp3.1\5thProj.dll
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\5thProj\obj\Debug\netcoreapp3.1\5thProj.pdb
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\5thProj\obj\Debug\netcoreapp3.1\5thProj.genruntimeconfig.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\5thProj\obj\Debug\netcoreapp3.1\5thProj.csprojAssemblyReference.cache

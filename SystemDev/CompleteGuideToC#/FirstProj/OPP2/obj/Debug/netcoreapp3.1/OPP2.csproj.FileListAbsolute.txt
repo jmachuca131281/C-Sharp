@@ -1,0 +1,13 @@
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\OPP2\bin\Debug\netcoreapp3.1\OPP2.exe
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\OPP2\bin\Debug\netcoreapp3.1\OPP2.deps.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\OPP2\bin\Debug\netcoreapp3.1\OPP2.runtimeconfig.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\OPP2\bin\Debug\netcoreapp3.1\OPP2.runtimeconfig.dev.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\OPP2\bin\Debug\netcoreapp3.1\OPP2.dll
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\OPP2\bin\Debug\netcoreapp3.1\OPP2.pdb
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\OPP2\obj\Debug\netcoreapp3.1\OPP2.AssemblyInfoInputs.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\OPP2\obj\Debug\netcoreapp3.1\OPP2.AssemblyInfo.cs
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\OPP2\obj\Debug\netcoreapp3.1\OPP2.csproj.CoreCompileInputs.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\OPP2\obj\Debug\netcoreapp3.1\OPP2.dll
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\OPP2\obj\Debug\netcoreapp3.1\OPP2.pdb
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\OPP2\obj\Debug\netcoreapp3.1\OPP2.genruntimeconfig.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\OPP2\obj\Debug\netcoreapp3.1\OPP2.csprojAssemblyReference.cache

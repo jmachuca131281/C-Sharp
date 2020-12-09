@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div>
+        <h1>Tablas de multiplicar del 2 al 10</h1>
+        @for (var x = 2; x <= 10; x++)
+        {
+            @Html.ActionLink("Tabla del " + @x, "Tabla", new { valor = @x }) <br />
+        }
+    </div>
+</div>

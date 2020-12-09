@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="adopcionesModelStoreContainer" CdmEntityContainer="adopcionesEntities">
+    <EntitySetMapping Name="adopcions">
+      <EntityTypeMapping TypeName="adopcionesModel.adopcion">
+        <MappingFragment StoreEntitySet="adopcion">
+          <ScalarProperty Name="nroAdopcion" ColumnName="nroAdopcion" />
+          <ScalarProperty Name="fechaAdopcion" ColumnName="fechaAdopcion" />
+          <ScalarProperty Name="idAdoptante" ColumnName="idAdoptante" />
+          <ScalarProperty Name="idMascota" ColumnName="idMascota" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="adoptantes">
+      <EntityTypeMapping TypeName="adopcionesModel.adoptante">
+        <MappingFragment StoreEntitySet="adoptante">
+          <ScalarProperty Name="idAdoptante" ColumnName="idAdoptante" />
+          <ScalarProperty Name="nombreAdoptante" ColumnName="nombreAdoptante" />
+          <ScalarProperty Name="direccionAdoptante" ColumnName="direccionAdoptante" />
+          <ScalarProperty Name="telefono1Adoptante" ColumnName="telefono1Adoptante" />
+          <ScalarProperty Name="telefono2Adoptante" ColumnName="telefono2Adoptante" />
+          <ScalarProperty Name="emailAdoptante" ColumnName="emailAdoptante" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mascotas">
+      <EntityTypeMapping TypeName="adopcionesModel.mascota">
+        <MappingFragment StoreEntitySet="mascota">
+          <ScalarProperty Name="idMascota" ColumnName="idMascota" />
+          <ScalarProperty Name="nombreMascota" ColumnName="nombreMascota" />
+          <ScalarProperty Name="edadMascota" ColumnName="edadMascota" />
+          <ScalarProperty Name="colorMascota" ColumnName="colorMascota" />
+          <ScalarProperty Name="generoMascota" ColumnName="generoMascota" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

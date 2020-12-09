@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="adopcionesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="adopcion">
+          <Key>
+            <PropertyRef Name="nroAdopcion" />
+          </Key>
+          <Property Name="nroAdopcion" Type="int" Nullable="false" />
+          <Property Name="fechaAdopcion" Type="date" Nullable="false" />
+          <Property Name="idAdoptante" Type="int" Nullable="false" />
+          <Property Name="idMascota" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="adoptante">
+          <Key>
+            <PropertyRef Name="idAdoptante" />
+          </Key>
+          <Property Name="idAdoptante" Type="int" Nullable="false" />
+          <Property Name="nombreAdoptante" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="direccionAdoptante" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="telefono1Adoptante" Type="int" Nullable="false" />
+          <Property Name="telefono2Adoptante" Type="int" Nullable="false" />
+          <Property Name="emailAdoptante" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="mascota">
+          <Key>
+            <PropertyRef Name="idMascota" />
+          </Key>
+          <Property Name="idMascota" Type="int" Nullable="false" />
+          <Property Name="nombreMascota" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="edadMascota" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="colorMascota" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="generoMascota" Type="varchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <Association Name="fk_adopcion_adoptante">
+          <End Role="adoptante" Type="Self.adoptante" Multiplicity="1" />
+          <End Role="adopcion" Type="Self.adopcion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="adoptante">
+              <PropertyRef Name="idAdoptante" />
+            </Principal>
+            <Dependent Role="adopcion">
+              <PropertyRef Name="idAdoptante" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_adopcion_mascota">
+          <End Role="mascota" Type="Self.mascota" Multiplicity="1" />
+          <End Role="adopcion" Type="Self.adopcion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mascota">
+              <PropertyRef Name="idMascota" />
+            </Principal>
+            <Dependent Role="adopcion">
+              <PropertyRef Name="idMascota" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="adopcionesModelStoreContainer">
+          <EntitySet Name="adopcion" EntityType="Self.adopcion" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="adoptante" EntityType="Self.adoptante" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="mascota" EntityType="Self.mascota" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="fk_adopcion_adoptante" Association="Self.fk_adopcion_adoptante">
+            <End Role="adoptante" EntitySet="adoptante" />
+            <End Role="adopcion" EntitySet="adopcion" />
+          </AssociationSet>
+          <AssociationSet Name="fk_adopcion_mascota" Association="Self.fk_adopcion_mascota">
+            <End Role="mascota" EntitySet="mascota" />
+            <End Role="adopcion" EntitySet="adopcion" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="adopcionesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="adopcion">
+          <Key>
+            <PropertyRef Name="nroAdopcion" />
+          </Key>
+          <Property Name="nroAdopcion" Type="Int32" Nullable="false" />
+          <Property Name="fechaAdopcion" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="idAdoptante" Type="Int32" Nullable="false" />
+          <Property Name="idMascota" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="adoptante" Relationship="Self.fk_adopcion_adoptante" FromRole="adopcion" ToRole="adoptante" />
+          <NavigationProperty Name="mascota" Relationship="Self.fk_adopcion_mascota" FromRole="adopcion" ToRole="mascota" />
+        </EntityType>
+        <EntityType Name="adoptante">
+          <Key>
+            <PropertyRef Name="idAdoptante" />
+          </Key>
+          <Property Name="idAdoptante" Type="Int32" Nullable="false" />
+          <Property Name="nombreAdoptante" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="direccionAdoptante" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="telefono1Adoptante" Type="Int32" Nullable="false" />
+          <Property Name="telefono2Adoptante" Type="Int32" Nullable="false" />
+          <Property Name="emailAdoptante" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="adopcions" Relationship="Self.fk_adopcion_adoptante" FromRole="adoptante" ToRole="adopcion" />
+        </EntityType>
+        <EntityType Name="mascota">
+          <Key>
+            <PropertyRef Name="idMascota" />
+          </Key>
+          <Property Name="idMascota" Type="Int32" Nullable="false" />
+          <Property Name="nombreMascota" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="edadMascota" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="colorMascota" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="generoMascota" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="adopcions" Relationship="Self.fk_adopcion_mascota" FromRole="mascota" ToRole="adopcion" />
+        </EntityType>
+        <Association Name="fk_adopcion_adoptante">
+          <End Role="adoptante" Type="Self.adoptante" Multiplicity="1" />
+          <End Role="adopcion" Type="Self.adopcion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="adoptante">
+              <PropertyRef Name="idAdoptante" />
+            </Principal>
+            <Dependent Role="adopcion">
+              <PropertyRef Name="idAdoptante" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_adopcion_mascota">
+          <End Role="mascota" Type="Self.mascota" Multiplicity="1" />
+          <End Role="adopcion" Type="Self.adopcion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mascota">
+              <PropertyRef Name="idMascota" />
+            </Principal>
+            <Dependent Role="adopcion">
+              <PropertyRef Name="idMascota" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="adopcionesEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="adopcions" EntityType="Self.adopcion" />
+          <EntitySet Name="adoptantes" EntityType="Self.adoptante" />
+          <EntitySet Name="mascotas" EntityType="Self.mascota" />
+          <AssociationSet Name="fk_adopcion_adoptante" Association="Self.fk_adopcion_adoptante">
+            <End Role="adoptante" EntitySet="adoptantes" />
+            <End Role="adopcion" EntitySet="adopcions" />
+          </AssociationSet>
+          <AssociationSet Name="fk_adopcion_mascota" Association="Self.fk_adopcion_mascota">
+            <End Role="mascota" EntitySet="mascotas" />
+            <End Role="adopcion" EntitySet="adopcions" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="adopcionesModelStoreContainer" CdmEntityContainer="adopcionesEntities">
+          <EntitySetMapping Name="adopcions">
+            <EntityTypeMapping TypeName="adopcionesModel.adopcion">
+              <MappingFragment StoreEntitySet="adopcion">
+                <ScalarProperty Name="nroAdopcion" ColumnName="nroAdopcion" />
+                <ScalarProperty Name="fechaAdopcion" ColumnName="fechaAdopcion" />
+                <ScalarProperty Name="idAdoptante" ColumnName="idAdoptante" />
+                <ScalarProperty Name="idMascota" ColumnName="idMascota" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="adoptantes">
+            <EntityTypeMapping TypeName="adopcionesModel.adoptante">
+              <MappingFragment StoreEntitySet="adoptante">
+                <ScalarProperty Name="idAdoptante" ColumnName="idAdoptante" />
+                <ScalarProperty Name="nombreAdoptante" ColumnName="nombreAdoptante" />
+                <ScalarProperty Name="direccionAdoptante" ColumnName="direccionAdoptante" />
+                <ScalarProperty Name="telefono1Adoptante" ColumnName="telefono1Adoptante" />
+                <ScalarProperty Name="telefono2Adoptante" ColumnName="telefono2Adoptante" />
+                <ScalarProperty Name="emailAdoptante" ColumnName="emailAdoptante" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mascotas">
+            <EntityTypeMapping TypeName="adopcionesModel.mascota">
+              <MappingFragment StoreEntitySet="mascota">
+                <ScalarProperty Name="idMascota" ColumnName="idMascota" />
+                <ScalarProperty Name="nombreMascota" ColumnName="nombreMascota" />
+                <ScalarProperty Name="edadMascota" ColumnName="edadMascota" />
+                <ScalarProperty Name="colorMascota" ColumnName="colorMascota" />
+                <ScalarProperty Name="generoMascota" ColumnName="generoMascota" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

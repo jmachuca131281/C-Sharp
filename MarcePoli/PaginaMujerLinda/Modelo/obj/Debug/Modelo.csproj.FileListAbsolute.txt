@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Ciclo 6\Aplicaciones 2\Modelo\bin\Debug\Modelo.dll
+C:\Users\User\Desktop\Ciclo 6\Aplicaciones 2\Modelo\bin\Debug\Modelo.pdb
+C:\Users\User\Desktop\Ciclo 6\Aplicaciones 2\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Ciclo 6\Aplicaciones 2\Modelo\obj\Debug\Modelo.dll
+C:\Users\User\Desktop\Ciclo 6\Aplicaciones 2\Modelo\obj\Debug\Modelo.pdb
+C:\VisualStudio\MarcePoli\PaginaMujerLinda\Modelo\bin\Debug\Modelo.dll
+C:\VisualStudio\MarcePoli\PaginaMujerLinda\Modelo\bin\Debug\Modelo.pdb
+C:\VisualStudio\MarcePoli\PaginaMujerLinda\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
+C:\VisualStudio\MarcePoli\PaginaMujerLinda\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\VisualStudio\MarcePoli\PaginaMujerLinda\Modelo\obj\Debug\Modelo.dll
+C:\VisualStudio\MarcePoli\PaginaMujerLinda\Modelo\obj\Debug\Modelo.pdb

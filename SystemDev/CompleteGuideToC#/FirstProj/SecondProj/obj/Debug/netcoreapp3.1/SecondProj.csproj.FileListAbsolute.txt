@@ -1,0 +1,13 @@
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\SecondProj\bin\Debug\netcoreapp3.1\SecondProj.exe
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\SecondProj\bin\Debug\netcoreapp3.1\SecondProj.deps.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\SecondProj\bin\Debug\netcoreapp3.1\SecondProj.runtimeconfig.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\SecondProj\bin\Debug\netcoreapp3.1\SecondProj.runtimeconfig.dev.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\SecondProj\bin\Debug\netcoreapp3.1\SecondProj.dll
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\SecondProj\bin\Debug\netcoreapp3.1\SecondProj.pdb
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\SecondProj\obj\Debug\netcoreapp3.1\SecondProj.csprojAssemblyReference.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\SecondProj\obj\Debug\netcoreapp3.1\SecondProj.AssemblyInfoInputs.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\SecondProj\obj\Debug\netcoreapp3.1\SecondProj.AssemblyInfo.cs
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\SecondProj\obj\Debug\netcoreapp3.1\SecondProj.csproj.CoreCompileInputs.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\SecondProj\obj\Debug\netcoreapp3.1\SecondProj.dll
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\SecondProj\obj\Debug\netcoreapp3.1\SecondProj.pdb
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\SecondProj\obj\Debug\netcoreapp3.1\SecondProj.genruntimeconfig.cache

@@ -1,0 +1,7 @@
+C:\Users\jmach\source\repos\Purchase_Order\DAL\bin\Debug\DAL.dll.config
+C:\Users\jmach\source\repos\Purchase_Order\DAL\bin\Debug\DAL.dll
+C:\Users\jmach\source\repos\Purchase_Order\DAL\bin\Debug\DAL.pdb
+C:\Users\jmach\source\repos\Purchase_Order\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\jmach\source\repos\Purchase_Order\DAL\obj\Debug\DAL.dll
+C:\Users\jmach\source\repos\Purchase_Order\DAL\obj\Debug\DAL.pdb
+C:\Users\jmach\source\repos\Purchase_Order\DAL\obj\Debug\DAL.csprojAssemblyReference.cache

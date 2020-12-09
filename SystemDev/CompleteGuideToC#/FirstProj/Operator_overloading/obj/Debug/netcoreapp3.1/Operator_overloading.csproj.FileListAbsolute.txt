@@ -1,0 +1,12 @@
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Operator_overloading\bin\Debug\netcoreapp3.1\Operator_overloading.exe
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Operator_overloading\bin\Debug\netcoreapp3.1\Operator_overloading.deps.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Operator_overloading\bin\Debug\netcoreapp3.1\Operator_overloading.runtimeconfig.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Operator_overloading\bin\Debug\netcoreapp3.1\Operator_overloading.runtimeconfig.dev.json
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Operator_overloading\bin\Debug\netcoreapp3.1\Operator_overloading.dll
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Operator_overloading\bin\Debug\netcoreapp3.1\Operator_overloading.pdb
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Operator_overloading\obj\Debug\netcoreapp3.1\Operator_overloading.AssemblyInfoInputs.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Operator_overloading\obj\Debug\netcoreapp3.1\Operator_overloading.AssemblyInfo.cs
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Operator_overloading\obj\Debug\netcoreapp3.1\Operator_overloading.csproj.CoreCompileInputs.cache
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Operator_overloading\obj\Debug\netcoreapp3.1\Operator_overloading.dll
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Operator_overloading\obj\Debug\netcoreapp3.1\Operator_overloading.pdb
+D:\C-SystemDev\CompleteGuideToC#\FirstProj\Operator_overloading\obj\Debug\netcoreapp3.1\Operator_overloading.genruntimeconfig.cache

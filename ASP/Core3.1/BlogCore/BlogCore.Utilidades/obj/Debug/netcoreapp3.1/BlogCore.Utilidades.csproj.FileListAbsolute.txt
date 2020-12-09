@@ -1,0 +1,9 @@
+C:\VisualStudio\ASP\Core3.1\BlogCore\BlogCore.Utilidades\bin\Debug\netcoreapp3.1\BlogCore.Utilidades.deps.json
+C:\VisualStudio\ASP\Core3.1\BlogCore\BlogCore.Utilidades\bin\Debug\netcoreapp3.1\BlogCore.Utilidades.dll
+C:\VisualStudio\ASP\Core3.1\BlogCore\BlogCore.Utilidades\bin\Debug\netcoreapp3.1\BlogCore.Utilidades.pdb
+C:\VisualStudio\ASP\Core3.1\BlogCore\BlogCore.Utilidades\obj\Debug\netcoreapp3.1\BlogCore.Utilidades.csproj.CoreCompileInputs.cache
+C:\VisualStudio\ASP\Core3.1\BlogCore\BlogCore.Utilidades\obj\Debug\netcoreapp3.1\BlogCore.Utilidades.AssemblyInfoInputs.cache
+C:\VisualStudio\ASP\Core3.1\BlogCore\BlogCore.Utilidades\obj\Debug\netcoreapp3.1\BlogCore.Utilidades.AssemblyInfo.cs
+C:\VisualStudio\ASP\Core3.1\BlogCore\BlogCore.Utilidades\obj\Debug\netcoreapp3.1\BlogCore.Utilidades.dll
+C:\VisualStudio\ASP\Core3.1\BlogCore\BlogCore.Utilidades\obj\Debug\netcoreapp3.1\BlogCore.Utilidades.pdb
+C:\VisualStudio\ASP\Core3.1\BlogCore\BlogCore.Utilidades\obj\Debug\netcoreapp3.1\BlogCore.Utilidades.csprojAssemblyReference.cache

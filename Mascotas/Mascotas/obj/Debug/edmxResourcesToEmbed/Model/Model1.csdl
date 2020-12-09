@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="adopcionesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="adopcion">
+    <Key>
+      <PropertyRef Name="nroAdopcion" />
+    </Key>
+    <Property Name="nroAdopcion" Type="Int32" Nullable="false" />
+    <Property Name="fechaAdopcion" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="idAdoptante" Type="Int32" Nullable="false" />
+    <Property Name="idMascota" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="adoptante" Relationship="Self.fk_adopcion_adoptante" FromRole="adopcion" ToRole="adoptante" />
+    <NavigationProperty Name="mascota" Relationship="Self.fk_adopcion_mascota" FromRole="adopcion" ToRole="mascota" />
+  </EntityType>
+  <EntityType Name="adoptante">
+    <Key>
+      <PropertyRef Name="idAdoptante" />
+    </Key>
+    <Property Name="idAdoptante" Type="Int32" Nullable="false" />
+    <Property Name="nombreAdoptante" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="direccionAdoptante" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefono1Adoptante" Type="Int32" Nullable="false" />
+    <Property Name="telefono2Adoptante" Type="Int32" Nullable="false" />
+    <Property Name="emailAdoptante" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="adopcions" Relationship="Self.fk_adopcion_adoptante" FromRole="adoptante" ToRole="adopcion" />
+  </EntityType>
+  <EntityType Name="mascota">
+    <Key>
+      <PropertyRef Name="idMascota" />
+    </Key>
+    <Property Name="idMascota" Type="Int32" Nullable="false" />
+    <Property Name="nombreMascota" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="edadMascota" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="colorMascota" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="generoMascota" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="adopcions" Relationship="Self.fk_adopcion_mascota" FromRole="mascota" ToRole="adopcion" />
+  </EntityType>
+  <Association Name="fk_adopcion_adoptante">
+    <End Role="adoptante" Type="Self.adoptante" Multiplicity="1" />
+    <End Role="adopcion" Type="Self.adopcion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="adoptante">
+        <PropertyRef Name="idAdoptante" />
+      </Principal>
+      <Dependent Role="adopcion">
+        <PropertyRef Name="idAdoptante" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_adopcion_mascota">
+    <End Role="mascota" Type="Self.mascota" Multiplicity="1" />
+    <End Role="adopcion" Type="Self.adopcion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mascota">
+        <PropertyRef Name="idMascota" />
+      </Principal>
+      <Dependent Role="adopcion">
+        <PropertyRef Name="idMascota" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="adopcionesEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="adopcions" EntityType="Self.adopcion" />
+    <EntitySet Name="adoptantes" EntityType="Self.adoptante" />
+    <EntitySet Name="mascotas" EntityType="Self.mascota" />
+    <AssociationSet Name="fk_adopcion_adoptante" Association="Self.fk_adopcion_adoptante">
+      <End Role="adoptante" EntitySet="adoptantes" />
+      <End Role="adopcion" EntitySet="adopcions" />
+    </AssociationSet>
+    <AssociationSet Name="fk_adopcion_mascota" Association="Self.fk_adopcion_mascota">
+      <End Role="mascota" EntitySet="mascotas" />
+      <End Role="adopcion" EntitySet="adopcions" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
